@@ -1,0 +1,47 @@
+.navbar-brand {
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 900;
+}
+
+.navbar-brand a {
+    font-size: 2rem;
+    color: #574B60;
+}
+
+.navbar-brand a:hover {
+    border-bottom: 3px solid #3F334D;
+    text-decoration: none;
+    color: #574B60;
+}
+
+.nav-link a {
+    font-size: 1.2rem;
+    color: #574B60;
+}
+
+.nav-link a:hover {
+    border-bottom: 2px solid #3F334D;
+    text-decoration: none;
+    color: #574B60;
+}
+
+.active {
+    border-bottom: 2px solid #3F334D;
+}
+
+.nav ul {
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #574B60;
+}
+
+.nav ul li a {
+    list-style: none;
+    padding: 10px;
+    color: #574B60;
+    text-decoration: none;
+}

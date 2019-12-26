@@ -1,0 +1,167 @@
+.development {
+    /* background-color: #574B60; */
+    /* background-color: #D7DBD8; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.5vmin);
+    /* color: #102542; */
+    color: #fff;
+}
+
+
+/* Development */
+
+.dev-item {
+    margin-bottom: 15%;
+}
+
+.dev-img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 5px solid #102542;
+    border-radius: 5px;
+}
+
+.caption {
+    background-color: #102542;
+    border: 5px solid #102542;
+    border-radius: 5px;
+    padding: 15px 50px;
+}
+
+a .caption {
+    color: white;
+    font-size: 17px;
+}
+
+.overlay {
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    text-align: center;
+}
+
+.caption:hover {
+    background-color: #574B60;
+    border: 5px solid #574B60;
+}
+
+@media screen and (min-width:350px) {
+    .overlay {
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:380px) {
+    .overlay {
+        left: 30%;
+    }
+}
+
+@media screen and (min-width:420px) {
+    .overlay {
+        left: 32%;
+    }
+}
+
+@media screen and (min-width:470px) {
+    .overlay {
+        left: 35%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .overlay {
+        left: 19%;
+    }
+    .caption {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (min-width:996px) {
+    .overlay {
+        left: 25%;
+    }
+    .caption {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (min-width:1205px) {
+    .overlay {
+        left: 28%;
+    }
+    .caption {
+        padding: 15px 50px;
+    }
+}
+
+
+/* Design */
+
+.des-item {
+    margin-bottom: 15%;
+}
+
+.des-img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 5px solid #102542;
+    border-radius: 5px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    text-align: center;
+}
+
+@media screen and (min-width:370px) {
+    .overlay2 {
+        left: 29%;
+    }
+}
+
+@media screen and (min-width:460px) {
+    .overlay2 {
+        left: 31%;
+    }
+}
+
+@media screen and (min-width:630px) {
+    .overlay2 {
+        left: 33%;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .overlay2 {
+        left: 28%;
+    }
+}
+
+@media screen and (min-width:997px) {
+    .overlay2 {
+        left: 34%;
+    }
+}
+
+.section-title {
+    /* text-align: center; */
+    /* padding-bottom: 3%; */
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #102542;
+    border-bottom: 3px solid #102542;
+    display: inline-block;
+}
